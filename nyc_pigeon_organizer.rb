@@ -8,9 +8,9 @@ def nyc_pigeon_organizer(data)
       names_array.each do |name|
         
         if names_array.include?(name)
-            if hash[name] == nil
-              hash[name] = {}
-            end
+          if hash[name] == nil
+            hash[name] = {}
+          end
           
           if hash[name][attributes] == nil
             hash[name][attributes] = []
